@@ -20,7 +20,7 @@ export default function Timing() {
   return (
     <section className="py-16 sm:py-20 lg:py-32 bg-obsidian">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
-        <div className="grid md:grid-cols-2 gap-px bg-gold/10">
+        <div className="grid md:grid-cols-2 gap-px">
           {CARDS.map(({ icon: Icon, title, description }, index) => (
             <motion.div
               key={title}
@@ -32,7 +32,7 @@ export default function Timing() {
                 delay: index * 0.15,
                 ease: [0.25, 0.1, 0.25, 1],
               }}
-              className="bg-obsidian p-6 sm:p-8 lg:p-14 group"
+              className="bg-obsidian p-6 sm:p-8 lg:p-14 group border border-gold/10 hover:border-gold/30 transition-colors duration-500"
             >
               <motion.div
                 whileHover={{ rotate: [0, -5, 5, 0], scale: 1.05 }}

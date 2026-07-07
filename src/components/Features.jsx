@@ -29,13 +29,13 @@ export default function Features() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-80px" }}
-          className="grid grid-cols-2 lg:grid-cols-4 divide-x divide-gold/10 border-y border-gold/10"
+          className="grid grid-cols-2 lg:grid-cols-4"
         >
           {FEATURES.map(({ icon: Icon, label }) => (
             <motion.div
               key={label}
               variants={itemVariants}
-              className="relative py-8 sm:py-10 lg:py-16 px-3 sm:px-4 lg:px-10 text-center group"
+              className="relative py-8 sm:py-10 lg:py-16 px-3 sm:px-4 lg:px-10 text-center group border border-gold/10 hover:border-gold/30 transition-colors duration-500"
             >
               <motion.div
                 whileHover={{ rotate: [0, -10, 10, -5, 0], scale: 1.1 }}

@@ -13,8 +13,8 @@
   --color-stone: #8A8580;
   --color-smoke: #3A3A3E;
 
-  --font-serif: "Cormorant Garamond", Georgia, serif;
-  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
 
   --animate-gold-pulse: gold-pulse 2s ease-in-out infinite;
 }

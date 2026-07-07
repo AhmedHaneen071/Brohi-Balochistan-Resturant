@@ -105,13 +105,13 @@ export default function FullMenu() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-80px" }}
-          className="grid lg:grid-cols-2 gap-px bg-gold/10"
+          className="grid lg:grid-cols-2 gap-px"
         >
           {categories.map(([category, items]) => (
             <motion.div
               key={category}
               variants={categoryVariants}
-              className="bg-obsidian p-6 sm:p-8 lg:p-10 group"
+              className="bg-obsidian p-6 sm:p-8 lg:p-10 group border border-gold/10 hover:border-gold/30 transition-colors duration-500"
             >
               <div className="flex items-center gap-3 sm:gap-4 mb-5 sm:mb-6 lg:mb-8">
                 <UtensilsCrossed

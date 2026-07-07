@@ -87,13 +87,13 @@ export default function Testimonials() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-80px" }}
-          className="grid md:grid-cols-3 gap-px bg-gold/10"
+          className="grid md:grid-cols-3 gap-px"
         >
           {REVIEWS.map((review) => (
             <motion.div
               key={review.author}
               variants={itemVariants}
-              className="bg-charcoal p-6 sm:p-8 lg:p-10 flex flex-col group"
+              className="bg-charcoal p-6 sm:p-8 lg:p-10 flex flex-col group border border-gold/10 hover:border-gold/30 transition-colors duration-500"
             >
               <div className="flex gap-1 mb-4 sm:mb-5">
                 {[...Array(5)].map((_, i) => (

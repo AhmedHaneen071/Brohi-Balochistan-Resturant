@@ -12,13 +12,13 @@ export default function Footer() {
   return (
     <footer className="bg-obsidian border-t border-gold/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
-        <div className="grid lg:grid-cols-2 gap-px bg-gold/5">
+        <div className="grid lg:grid-cols-2 gap-px">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, ease: [0.25, 0.1, 0.25, 1] }}
-            className="bg-obsidian py-12 sm:py-16 lg:py-20 pr-0 lg:pr-16"
+            className="bg-obsidian py-12 sm:py-16 lg:py-20 pr-0 lg:pr-16 border border-gold/10"
           >
             <a href="#" className="inline-block select-none mb-8 sm:mb-10">
               <span className="font-serif text-xl sm:text-2xl tracking-[0.3em] text-ivory block leading-none">
@@ -104,7 +104,7 @@ export default function Footer() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
-            className="bg-obsidian py-12 sm:py-16 lg:py-20 pl-0 lg:pl-16"
+            className="bg-obsidian py-12 sm:py-16 lg:py-20 pl-0 lg:pl-16 border border-gold/10"
           >
             <div className="aspect-[16/9] lg:aspect-auto lg:h-full min-h-[200px] sm:min-h-[240px] bg-charcoal-light rounded-sm overflow-hidden relative group">
               <img
