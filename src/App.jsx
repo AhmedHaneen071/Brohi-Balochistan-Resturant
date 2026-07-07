@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
-import Menu from "./components/Menu";
+import FullMenu from "./components/FullMenu";
 import Timing from "./components/Timing";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
@@ -75,7 +75,7 @@ function App() {
             <main>
               <Hero />
               <Features />
-              <Menu />
+              <FullMenu />
               <Timing />
               <Testimonials />
             </main>

@@ -22,7 +22,7 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <motion.div
         style={{ scale: imgScale, opacity: imgOpacity }}
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-0 bg-obsidian"
       >
         <img
           src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1974&auto=format&fit=crop"

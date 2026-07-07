@@ -17,8 +17,6 @@
   --font-sans: "Inter", system-ui, sans-serif;
 
   --animate-gold-pulse: gold-pulse 2s ease-in-out infinite;
-  --animate-draw-line: draw-line 1.5s ease-out forwards;
-  --animate-float: float 4s ease-in-out infinite;
 }
 
 * {
@@ -46,12 +44,4 @@ html {
   50% { opacity: 1; }
 }
 
-@keyframes draw-line {
-  0% { transform: scaleX(0); transform-origin: left; }
-  100% { transform: scaleX(1); transform-origin: left; }
-}
 
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-6px); }
-}
