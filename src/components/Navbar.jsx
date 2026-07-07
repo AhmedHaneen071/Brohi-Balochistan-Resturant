@@ -48,7 +48,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="tel:+92223861234"
+              href="#"
               className="font-sans text-xs tracking-[0.2em] uppercase px-6 py-2.5 border border-gold/40 text-gold hover:bg-gold/10 hover:border-gold transition-all duration-500 ease-out"
             >
               Reserve an Experience
@@ -85,7 +85,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="tel:+92223861234"
+                href="#"
                 className="inline-block font-sans text-xs tracking-[0.2em] uppercase px-6 py-3 border border-gold/40 text-gold hover:bg-gold/10 transition-all duration-500"
               >
                 Reserve an Experience
